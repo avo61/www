@@ -1,0 +1,250 @@
+<!doctype html>
+
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div> 
+
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://intercon.ru/private/12/tariff/">Дом</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://intercon.ru/private/12/tariff/">Квартира</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://intercon.ru/corporate/16/tariff/">Офис</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://intercon.ru/support/faq/">Сервис</a>
+			  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://myintercon.ru/login">Кабинет</a>
+		  
+			  <a  class="mdl-navigation__link mdl-typography--text-uppercase mdl-navigation__link--icon  int-elm" href=""> <i class="material-icons">phone</i> 239-10-10</a>
+            </nav>
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+
+
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">Интернет</li>
+            <li class="mdl-menu__item">IP TV</li>
+            <li class="mdl-menu__item">HotSpot</li>
+	            <li class="mdl-menu__item">WiFi</li>		
+            <li disabled class="mdl-menu__item">Телефония</li>
+            <li disabled class="mdl-menu__item">Сервис</li>
+            <li disabled class="mdl-menu__item">Доп Услуги</li>			
+            <li class="mdl-menu__item">О Компании</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+	  <!--
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/logo.png">
+        </span>
+	  -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Личный Кабинет</a>
+          <a class="mdl-navigation__link" href="">Интернет Дом</a>
+          <a class="mdl-navigation__link" href="">Интернет Квартира</a>
+          <a class="mdl-navigation__link" href="">Интернет Офис</a>
+          <a class="mdl-navigation__link" href="">Цифровое ТВ</a>
+          <a class="mdl-navigation__link" href="">Телефония</a>
+          <a class="mdl-navigation__link" href="">Сервис</a>
+          <a class="mdl-navigation__link" href="">Компания</a>
+          <a class="mdl-navigation__link" href="">Форум</a>
+          <a class="mdl-navigation__link" href="">Обращение к Руководству</a>
+
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+
+        <a name="top"></a>
+        <div class="android-be-together-section ">
+		
+          <div class="weit-font android-slogan">ИНТЕРКОН Акции!!!</div>
+
+        </div>
+
+		<div class="isp-new-section">
+			<div class="int-section-title  logo-font "><h1>Интернет провайдер в Воронеже</h1></div>
+			<div class="android-card-container mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--8-col-phone mdl-card mdl-shadow--3dp int_kart">
+					<div class="logo-font "> <h2>Интернет для Частных Домов</h2></div>
+					<div class=" "><h4>Интернет 100 Мбит/c</h4></div>
+					<div class=" "><h4>Оптика до Дома</h4></div>
+					<div class=" "><h4>IP TV более 200 каналов</h4></div>
+					<div class="logo-font "></div>
+					<div class=" "><h3>От 490 руб</h3></div>
+					<a href="http://intercon.ru/private/12/tariff/" target="_blank"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect int-color">Подобрать тариф</a>
+				</div>
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--8-col-phone mdl-card mdl-shadow--3dp int_kart">
+					<div class="logo-font "> <h2>Интернет для Квартир</h2></div>
+					<div class=" "><h4>Интернет 300 Мбит/c</h4></div>
+					<div class=" "><h4>Социальный тариф</h4></div>
+					<div class=" "><h4>IP TV более 200 каналов</h4></div>
+					<div class="logo-font "></div>
+					<div class=" "><h3>От 250 руб</h3></div>
+					<a href="http://intercon.ru/private/12/tariff/" target="_blank"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect int-color">Подобрать тариф</a>           
+				</div>
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--8-col-phone mdl-card mdl-shadow--3dp int_kart">
+					<div class="logo-font "> <h2>Интернет для Офисов</h2></div>
+					<div class=" "><h4>Интернет 300 Мбит/c</h4></div>
+
+					<div class=" "><h4>Установим бесплатный WiFi</h4></div>
+					<div class=" "><h4>IP Tелефония</h4></div>
+					<div class="logo-font "></div>
+					<div class=" "><h3>От 1000 руб</h3></div>
+					<a href="http://intercon.ru/corporate/16/tariff/" target="_blank"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect int-color">Подобрать тариф</a>
+				</div>
+			</div>			
+			<div class="mdl-grid ">
+					<div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp int_short_kart">	
+					<div class="logo-font "> <h2>Отличная техническая поддержка</h2></div>
+					<div class=" "><h4>Приедем в течении суток</h4></div>
+
+					<div class=" "><h4>Установим  WiFi. Сделаем разводку кабелей. Настроим компьютер</h4></div>
+
+					<a href="http://intercon.ru/support/faq/"# target="_blank"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect int-color">Ознакомиться с сервисным центром</a>
+					
+					</div>		
+							
+			</div>
+		</div>		
+
+		<div class="isp-new-section">
+			<div class="android-section-title mdl-typography--display-1-color-contrast">Новости</div>
+			<div class=" mdl-grid mdl-grid--no-spacing ">
+				<div class="mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet mdl-cell--8-col-phone  ">
+
+						<div class="int-new-1 ">
+							<div class="int-new-date">10 ноября</div>
+							<div class="int-new-text">Начато строительство новой сети</div>							
+						</div>     
+				</div>
+				<div class="mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--8-col-phone  ">
+			    	<div class="mdl-grid mdl-grid--no-spacing">  			
+					  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone ">
+
+						<div class="int-new-2 ">
+							<div class="int-new-date">8 ноября</div>
+							<div class="int-new-text2">Начато строительство новой сети</div>								
+						</div>
+					  </div>		
+					  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone ">
+						<div class="int-new-2 ">
+							<div class="int-new-date">5 ноября</div>
+							<div class="int-new-text2">Начато строительство новой сети</div>								
+						</div>
+
+					  </div>	
+	
+					</div>	
+			    	<div class="mdl-grid mdl-grid--no-spacing">  			
+					  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone ">
+
+						<div class="int-new-2 ">
+							<div class="int-new-date">1 ноября</div>
+							<div class="int-new-text2">Начато строительство новой сети</div>								
+						</div>
+					  </div>		
+					  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone ">
+						<div class="int-new-3 ">
+							<div class="int-new-date">5 ноября</div>
+						</div>
+
+					  </div>	
+	
+					</div>						
+				</div>
+				
+				
+			
+			</div>
+		</div>
+		
+
+		<div class="isp-map-section">
+			<div class="int-map-title mdl-typography--display-1-color-contrast">Карта сети Интеркон</div>
+			<div class="android-card-container mdl-grid">
+				<div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--8-col-phone  mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/map.jpg">
+              </div>
+              
+				</div>
+			
+			</div>
+		</div>
+
+        <div class="int-telefon-section ">
+		
+          Звоните круглосуточно +7(473) 239-10-10
+
+        </div>
+
+
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                В начало
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">Интеркон Воронеж. Ленина 73</p>
+            <p class="mdl-typography--font-light">Интернет Провайдер</p>
+          </div>
+
+        </footer>
+      </div>
+    </div>
+    <a href=# target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Консультант</a>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  </body>
+</html>
